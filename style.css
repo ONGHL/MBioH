@@ -329,10 +329,11 @@ button.prev:hover, button.next:hover {
 }
 
 .footer-content ul {
-    font-size: 1.5rem;
+    font-size: 1.0rem;
+    font-weight: bold;
 }
 
-.footer-content ul li {
+.footer-content li {
     list-style: none;
     font-size: 1.0rem;
 }
