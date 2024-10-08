@@ -18,7 +18,7 @@ h1, h2, h3, h4 {
 
 /* Hero Section */
 #hero {
-    height: 150vh;
+    height: auto;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('hero-bg.jpg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
