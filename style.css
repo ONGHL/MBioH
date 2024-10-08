@@ -418,6 +418,7 @@ button.prev:hover, button.next:hover {
 
     .testimonial-slider {
         flex-direction: column;
+        align-item: center;
     }
 }
 
