@@ -131,7 +131,7 @@ h1, h2, h3, h4 {
     margin: 0 auto; 
 }
 
-#what-is-pev h3 {
+#what-is-pev h4 {
     font-size: 2.5rem; 
     font-weight: 600; 
     margin-bottom: 20px; 
@@ -152,7 +152,7 @@ h1, h2, h3, h4 {
     background-color: white;
 }
 
-#features h3 {
+#features h4 {
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
@@ -203,8 +203,8 @@ h1, h2, h3, h4 {
     background-color: #dcf7e2;
 }
 
-#testimonials h3 {
-    font-size: 2rem;
+#testimonials h4 {
+    font-size: 2.5rem;
     margin-bottom: 30px;
 }
 
@@ -324,7 +324,7 @@ button.prev:hover, button.next:hover {
     margin: 0 auto;
 }
 
-.footer-content h7 {
+.footer-content h4 {
     margin-bottom: 10px;
     font-size: 2rem;
 }
