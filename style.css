@@ -237,6 +237,7 @@ button.prev, button.next {
     background-color: #1e5b2f;
     color: white;
     padding: 10px 20px;
+    width: 120px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -246,7 +247,6 @@ button.prev, button.next {
 
 button.prev:hover, button.next:hover {
     background-color: #145b2f;
-    max-width: 30px;
 }
 
 /* Call-to-Action Section */
