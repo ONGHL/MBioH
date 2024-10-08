@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6, h7 {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5 {
     margin: 0 auto; 
 }
 
-#what-is-pev h2 {
+#what-is-pev h3 {
     font-size: 2.5rem; 
     font-weight: 600; 
     margin-bottom: 20px; 
@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5 {
     background-color: white;
 }
 
-#features h2 {
+#features h4 {
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-.feature-card h3 {
+.feature-card h4 {
     font-size: 1.4rem;
     margin: 15px 0;
     flex-grow: 1; 
@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5 {
     background-color: #dcf7e2;
 }
 
-#testimonials h2 {
+#testimonials h5 {
     font-size: 2rem;
     margin-bottom: 30px;
 }
@@ -256,7 +256,7 @@ button.prev:hover, button.next:hover {
     text-align: center;
 }
 
-#cta h2 {
+#cta h6 {
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
@@ -289,7 +289,7 @@ button.prev:hover, button.next:hover {
     max-width: 1400px;   
 }
 
-.payment-info h3 {
+.payment-info h6 {
     font-size: 1.8rem; 
     margin-bottom: 15px;
     font-weight: bold;
@@ -324,7 +324,7 @@ button.prev:hover, button.next:hover {
     margin: 0 auto;
 }
 
-.footer-content h4 {
+.footer-content h7 {
     margin-bottom: 10px;
     font-size: 2rem;
 }
@@ -428,7 +428,7 @@ button.prev:hover, button.next:hover {
         font-size: 1rem;
     }
 
-    #cta h2 {
+    #cta h6 {
         font-size: 1.5rem;
     }
 
