@@ -349,7 +349,8 @@ button.prev:hover, button.next:hover {
 }
 
 .footer-content .icon {
-    max-width: 30px; 
+    width: 20px; 
+    height: 20px;
     vertical-align: middle;
     margin-right: 8px; 
 }
