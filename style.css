@@ -91,7 +91,7 @@ h1, h2, h3 {
 .about-text ul li {
     margin-bottom: 15px;
     font-size: 1.2rem;
-    background-color: #e3e3e3;
+    background-color: white;
     padding: 10px;
     border-radius: 5px;
     max-width: 500px;
