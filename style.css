@@ -18,7 +18,7 @@ h1, h2, h3 {
 
 /* Hero Section */
 #hero {
-    height: 100vh;
+    height: 250vh;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('hero-bg.jpg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
@@ -27,9 +27,19 @@ h1, h2, h3 {
     color: white;
 }
 
+.logo-container {
+    margin-bottom: 20px; /* Space between logo and title */
+}
+
+.logo-container img {
+    max-width: 200px; 
+    height: auto; 
+}
+
 #hero h1 {
     font-size: 3.5rem;
     font-weight: 600;
+    margin: 10px 0; /* Adjust margin as needed */
 }
 
 #hero p {
@@ -55,7 +65,7 @@ h1, h2, h3 {
 #about {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 50px; 
     align-items: flex-start; 
     flex-wrap: wrap; 
 }
@@ -71,16 +81,16 @@ h1, h2, h3 {
 .about-image {
     flex: 1 1 auto; 
     margin-right: 20px;
-    max-width: 500px; 
+    max-width: 200px; 
 }
 
 .about-text {
     flex: 2 1 auto; 
     line-height: 1.4;
     width: 100%;
-    max-width: 600px; 
+    max-width: 800px;
     min-width: 300px; 
-    word-wrap: break-word; 
+    word-wrap: break-word;
 }
 
 .about-text h2 {
@@ -95,7 +105,7 @@ h1, h2, h3 {
 
 .about-text ul li {
     margin-bottom: 15px;
-    font-size: 1rem;
+    font-size: 1.25rem;
     background-color: white;
     padding: 10px;
     border-radius: 5px;
@@ -104,7 +114,7 @@ h1, h2, h3 {
 
 .about-image img {
     width: 100%;
-    max-width: 500px;
+    max-width: 200px;
     border-radius: 10px;
 }
 
@@ -131,12 +141,37 @@ h1, h2, h3 {
     }
 }
 
+/* Information Section */
+#what-is-pev {
+    background-color: #dcf7e2; 
+    padding: 50px 20px; 
+    text-align: center; 
+}
+
+.info-overlay {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+#what-is-pev h2 {
+    font-size: 2.5rem; 
+    font-weight: 600; 
+    margin-bottom: 20px; 
+    Space below title */
+    color: #1e5b2f; 
+}
+
+#what-is-pev p {
+    font-size: 1.2rem; /* Paragraph font size */
+    line-height: 1.6; /* Improve readability */
+    color: #333; 
+}
 
 /* Features Section */
 #features {
     padding: 40px 0;
     text-align: center;
-    background-color: #F3F3F3;
+    background-color: white;
 }
 
 #features h2 {
@@ -153,13 +188,13 @@ h1, h2, h3 {
 }
 
 .feature-card {
-    background-color: white;
+    background-color: #dcf7e2;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     flex: 1;
-    min-width: 300px;
+    min-width: 250px; 
     max-width: 300px; 
     display: flex;
     flex-direction: column;
@@ -183,12 +218,18 @@ h1, h2, h3 {
 }
 
 
-
 /* Testimonials Section */
 #testimonials {
     padding: 40px 0;
     text-align: center;
     background-color: #f0fff0;
+}
+
+/* Testimonials Section */
+#testimonials {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #dcf7e2;
 }
 
 #testimonials h2 {
@@ -221,6 +262,7 @@ h1, h2, h3 {
     color: #555;
 }
 
+
 button.prev, button.next {
     background-color: #1e5b2f;
     color: white;
@@ -234,8 +276,6 @@ button.prev, button.next {
 button.prev:hover, button.next:hover {
     background-color: #145b2f;
 }
-
-
 
 /* Call-to-Action Section */
 #cta {
@@ -258,34 +298,83 @@ button.prev:hover, button.next:hover {
     border-radius: 30px;
     text-decoration: none;
     transition: background-color 0.3s;
+    margin-top: 20px;
 }
 
 #cta .btn-cta:hover {
     background-color: #27cabb;
 }
 
-/* Footer */
-footer {
+.payment-info {
+    background-color: #ffffff; 
+    color: #333; 
+    padding: 50px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /
+    margin-top: 20px; 
+    display: inline-block; 
+    background-color: #dcf7e2;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 250px; 
+    max-width: 1400px;   
+}
+
+.payment-info h3 {
+    font-size: 1.8rem; 
+    margin-bottom: 15px;
+}
+
+.payment-info ul {
+    padding: 10px;
+    text-align: left;
+}
+
+.payment-info ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+/* Footer Section */
+#footer {
     background-color: white;
-    padding: 20px 0;
+    color: black;
+    padding: 40px;
     text-align: center;
+    font-size: 0.9rem;
 }
 
-footer .icon {
-    width: 10%;
-    max-width: 200px;
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-footer .social-icons a {
-    text-decoration: none;
-    margin: 0 10px;
-    color: #29ECD;
+.footer-content h4 {
+    margin-bottom: 10px;
     font-size: 1.5rem;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.footer-content .icon {
+    width: 20px; /* Adjust size as needed */
+    vertical-align: middle;
+    margin-right: 8px; /* Space between the icon and text */
+}
+
+.email-link {
+    color: #29ECD;
+    text-decoration: none;
     transition: color 0.3s;
 }
 
-footer .social-icons a:hover {
-    color: #1e5b2f;
+.email-link:hover {
+    color: #27cabb;
 }
 
 footer p {
