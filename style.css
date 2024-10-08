@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-h1, h2, h3, h4, h5, h6, h7 {
+h1, h2, h3, h4 {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6, h7 {
     background-color: white;
 }
 
-#features h4 {
+#features h3 {
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6, h7 {
     margin-bottom: 15px;
 }
 
-.feature-card h4 {
+.feature-card h3 {
     font-size: 1.4rem;
     margin: 15px 0;
     flex-grow: 1; 
@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6, h7 {
     background-color: #dcf7e2;
 }
 
-#testimonials h5 {
+#testimonials h3 {
     font-size: 2rem;
     margin-bottom: 30px;
 }
@@ -256,7 +256,7 @@ button.prev:hover, button.next:hover {
     text-align: center;
 }
 
-#cta h6 {
+#cta h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
@@ -289,7 +289,7 @@ button.prev:hover, button.next:hover {
     max-width: 1400px;   
 }
 
-.payment-info h6 {
+.payment-info h4 {
     font-size: 1.8rem; 
     margin-bottom: 15px;
     font-weight: bold;
@@ -428,7 +428,7 @@ button.prev:hover, button.next:hover {
         font-size: 1rem;
     }
 
-    #cta h6 {
+    #cta h2 {
         font-size: 1.5rem;
     }
 
