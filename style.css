@@ -241,12 +241,12 @@ button.prev, button.next {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    max-width: 30px;
     margin: 10px;
 }
 
 button.prev:hover, button.next:hover {
     background-color: #145b2f;
+    max-width: 30px;
 }
 
 /* Call-to-Action Section */
