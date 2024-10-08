@@ -18,7 +18,7 @@ h1, h2, h3, h4 {
 
 /* Hero Section */
 #hero {
-    height: auto;
+    height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('hero-bg.jpg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
@@ -27,8 +27,9 @@ h1, h2, h3, h4 {
     color: white;
 }
 
+
 .logo-container {
-    margin-bottom: 20px; 
+    margin: 20px; 
 }
 
 .logo-container img {
@@ -39,13 +40,13 @@ h1, h2, h3, h4 {
 #hero h1 {
     font-size: 3.5rem;
     font-weight: 600;
-    margin: 10px 0;
 }
 
 #hero p {
     font-size: 1.2rem;
-    margin: 20px;
+    margin: 20px 0;
 }
+
 
 .btn-cta {
     background-color: #1e5b2f;
