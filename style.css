@@ -328,9 +328,9 @@ button.prev:hover, button.next:hover {
     font-size: 2.0rem;
 }
 
-.footer-content h5 {
-    font-size: 1.0rem;
-    font-weight: bold;
+.footer-content ul {
+    font-size: 1.5rem;
+    padding: 0;
 }
 
 .footer-content ul li {
@@ -338,11 +338,15 @@ button.prev:hover, button.next:hover {
     font-size: 1.0rem;
 }
 
+.bold-text {
+    font-weight: bold;
+}
+
 .footer-info {
     display: flex; 
     justify-content: space-between; 
     padding: 20px; 
-    background-color: white;
+    background-color: white; 
 }
 
 .footer-content .icon {
@@ -370,6 +374,7 @@ button.prev:hover, button.next:hover {
     font-size: 0.8rem; 
     margin-top: 20px;
 }
+
 
 /* Responsive Media Queries */
 @media (max-width: 700px) {
