@@ -241,7 +241,7 @@ button.prev, button.next {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    min-width: 30px;
+    max-width: 30px;
     margin: 10px;
 }
 
