@@ -62,10 +62,9 @@ h1, h2, h3, h4 {
     background-color: #145b2f;
 }
 
-/* About Section */
 #about {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 50px; 
     align-items: flex-start; 
     flex-wrap: wrap; 
@@ -82,7 +81,7 @@ h1, h2, h3, h4 {
 .about-image {
     flex: 1 1 auto; 
     margin-right: 20px;
-    max-width: 200px; 
+    max-width: 200px;
 }
 
 .about-text {
@@ -117,6 +116,7 @@ h1, h2, h3, h4 {
     width: 100%;
     max-width: 200px;
     border-radius: 10px;
+    align-items: center;
 }
 
 /* Information Section */
@@ -172,7 +172,7 @@ h1, h2, h3, h4 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     flex: 1;
-    min-width: 250px; 
+    min-width: 300px; 
     max-width: 300px; 
     display: flex;
     flex-direction: column;
@@ -240,6 +240,7 @@ button.prev, button.next {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin: 10px
 }
 
 button.prev:hover, button.next:hover {
@@ -340,7 +341,7 @@ button.prev:hover, button.next:hover {
     display: flex; 
     justify-content: space-between; 
     padding: 20px; 
-    background-color: white; 
+    background-color: white;
 }
 
 .footer-content .icon {
@@ -370,7 +371,7 @@ button.prev:hover, button.next:hover {
 }
 
 /* Responsive Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     #hero h1 {
         font-size: 2.5rem;
     }
@@ -378,19 +379,30 @@ button.prev:hover, button.next:hover {
     .features-grid {
         flex-direction: column;
         gap: 20px;
+        align-items: center;
     }
 
     .about-content {
         flex-direction: column;
         align-items: center;
     }
-
+    
     .about-image {
-        margin-right: 0;
         margin-bottom: 20px;
+        align-item: center;
+    }
+  
+    .footer-info {
+        display: block;
+        text-align: center; 
+    }
+
+    .contact-item {
+        margin-bottom: 10px;
+        align-item: center;
     }
 }
-
+    
 @media (max-width: 480px) {
     #hero h1 {
         font-size: 2rem;
@@ -408,3 +420,4 @@ button.prev:hover, button.next:hover {
         flex-direction: column;
     }
 }
+
